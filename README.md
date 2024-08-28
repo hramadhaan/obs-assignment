@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Description
 
-## Getting Started
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-First, run the development server:
+This app will help abandoned animals get help from Animal welfare organizations
+all over the world when people reporting them via this app.
+This project was initally created to participate in my first hackathon - Clerk
+x Hashnode Hackathon July 2021. Check out [my article](https://yuridevat.hashnode.dev/sos-animals-hackathon-project)
+about the project and my experience in the hackathon.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🏆 This project was one of the Runner Up Winners. 🥳
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Blog article:** [SOS Animals app - a project for the Clerk x Hashnode Hackathon](https://yuridevat.hashnode.dev/sos-animals-hackathon-project)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Thumbnail](https://github.com/YuriDevAT/sos-animals/blob/main/public/thumbnail-sos.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The idea is that when reporting an animal, the user will start filling out a form
+about the animal's situation and location.
+If people want to leave their contact information in the last stage, this should
+give them the possibility to stay connected with the NGOs and get information
+about the condition of the animal.
+When submitting the form, the form should be sent to the nearest NGO station.
 
-## Learn More
+To participate in the Hackathon, it was a requirement to implement Clerk
+Authantication, but it was finally removed because no authantication should be
+necessary to use the app, to make sure to help the animal as fast as possible.
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Live view by clicking the badge: [![Netlify Status](https://api.netlify.com/api/v1/badges/f9a7f8d3-58ca-44ed-a038-ae8d2efd31a5/deploy-status)](https://sos-animal.netlify.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can also clone the project and open it in localhost, or enjoy the preview
+video below instead :smile:
 
-## Deploy on Vercel
+https://user-images.githubusercontent.com/54622834/127658950-b1964a1c-dfc3-4853-be04-9c14a35f569c.mov
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Contribution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To contribute to this project please check out the [contribution guidelines](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md).
+
+## Prerequisits
+
+Before cloning/forking this project, make sure you have the following tools installed:
+
+- [Git](https://git-scm.com/downloads)
+- [NodeJS](https://nodejs.org/en/download/)
+
+## Installation
+
+1. Fork the project
+2. Clone the project
+3. Follow the instructions in the console:
+4. Navigate to the project directory cd sos-animals
+5. Install the dependencies npm install
+6. Run the project npm start
+
+## Contributors
+
+[//]: contributor-faces
+
+<a href="https://github.com/YuriDevAT"><img src="https://avatars.githubusercontent.com/u/54622834?v=4" title="Julia Undeutsch" width="80" height="80"></a>
+
+[//]: contributor-faces
