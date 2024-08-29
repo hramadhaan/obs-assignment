@@ -9,7 +9,6 @@ import {
   useMemo,
   useState,
 } from "react";
-import isEqual from "lodash/isEqual";
 import DialogCore from "./DialogCore";
 import useUserStore from "@/store/UserStore";
 import { User } from "@/types/user";
@@ -17,7 +16,7 @@ import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 
 const INITIAL_STATE = {
-  id: new Date().getTime(),
+  id: Math.floor(Math.random() * 200) + 100,
   name: "",
   username: "",
   email: "",
@@ -248,7 +247,7 @@ const LayoutWithModal: FC<Props> = (props) => {
           } else {
             editUser(tempUser as User);
           }
-          setTempUser(INITIAL_STATE as User);
+          setTempUser({ ...INITIAL_STATE, id: Math.floor(Math.random() * 200) + 100 });
         }}
         onSecondaryAction={() => {
           removeUser(user as User);
