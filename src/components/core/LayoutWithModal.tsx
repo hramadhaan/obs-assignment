@@ -248,6 +248,7 @@ const LayoutWithModal: FC<Props> = (props) => {
           } else {
             editUser(tempUser as User);
           }
+          setTempUser(INITIAL_STATE as User);
         }}
         onSecondaryAction={() => {
           removeUser(user as User);
